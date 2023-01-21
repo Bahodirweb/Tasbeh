@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 250px;
+  height: 50vh;
+  background-color: rgb(26, 4, 170);
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#display {
+  width: 170px;
+  height: 55px;
+  background-color: forestgreen;
+  border-radius: 15px;
+  border: 10px solid rgb(4, 75, 21);
+  position: relative;
+  left: 32px;
+  top: 40px;
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+#text{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  position: relative;
+  bottom: 43px;
+  color:red;
+}
+#submit {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px double rgb(255, 255, 255);
+  background-color: rgb(0, 134, 128);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  position: relative;
+  left: 80px;
+  top: 130px;
+}
+
+#reset {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 10px double rgb(242, 245, 224);
+  background-color: rgb(0, 134, 128);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  position: relative;
+  left: 90px;
+  top: 50px;
+
+}
